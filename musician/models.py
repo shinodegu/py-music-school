@@ -21,3 +21,6 @@ class Musician(models.Model):
             return "Person is adult"
         else:
             return "Person is not adult"
+
+    class Meta:
+        verbose_name = "Musician"
